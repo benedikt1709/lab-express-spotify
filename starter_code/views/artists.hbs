@@ -1,0 +1,7 @@
+<div class="container-artist">
+
+    {{#each searchedArtists}}
+    <h2>{{this.name}}</h2>
+    {{> artistsPartial this}}
+    {{/each}}
+</div>
